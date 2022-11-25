@@ -12,7 +12,7 @@ function draw() {
 
     stroke(255);
 
-    for(var lineX = 75; lineX <= 255; lineX += 75) {
+    for(var lineX = 75; lineX <= width; lineX += 75) {
         line(lineX, 0, lineX, height);
     }
 }
