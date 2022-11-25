@@ -3,7 +3,7 @@ function setup() {
     canvas.parent("p5container");
 
     for(var i = 0; i < 10; i++) {
-        console.log('I want an ice cream');
+        console.log('I want' +i+ 'Ice creams');
     }
 }
 
