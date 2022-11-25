@@ -8,9 +8,14 @@ function setup() {
     //     console.log('I want' +i+ 'Ice creams');
     // }
 
-    for(var i = 0; i < myArray.length; i++) {
-        console.log(myArray[i]);
+    // for(var i = 0; i < myArray.length; i++) {
+    //     console.log(myArray[i]);
+    // }
+
+    for(var words in myArray) {
+        console.log(myArray[words]);
     }
+
 }
 
 function draw() {
