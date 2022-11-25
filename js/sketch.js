@@ -16,7 +16,14 @@ function draw() {
     //     line(lineX, 0, lineX, height);
     // }
 
-    for(var x= 0; x <=80; x++) {
-        circle(x * 10, height/2, 10);
+    // for(var x= 0; x <=80; x++) {
+    //     circle(x * 10, height/2, 10);
+    // }
+
+    for(var y = 0; y <= 80; y++) {
+        for(var x = 0; x <= 80; x++) {
+            fill(x * y, x * 10, y);
+            circle(x * 10, y * 10, 5);
+        }
     }
 }
